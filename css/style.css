@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body{
+    background: #ccc;    
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    background: #FFF;
+    margin-bottom: 8px;
+}
+
+header a{
+    color: #999;
+}
+
+section{
+    overflow-y: scroll;
+    width: 100%;
+    background: #FFF;
+}
+
+.user{
+    height: 80px;
+    display: flex;
+}
+
+.user dt{
+    flex: 2;
+}
+
+.user dt span{
+    width:  60px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    background: #ccc;
+    margin: 10px auto;
+}
+
+.user dt span i{
+    font-size: 25px;
+}
+
+.user dd{
+    flex: 8;
+    line-height: 80px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+}
+
+nav ul{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li{
+    height: 70px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    line-height: 70px;
+}
+
+.icon-7tian{
+    color: pink;
+}
+
+.icon-28{
+    color: blue;
+}
+
+.icon-29{
+    color: green;
+}
+
+.icon-shezhi{
+    color: yellow;
+}
+
+nav ol{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ol li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
